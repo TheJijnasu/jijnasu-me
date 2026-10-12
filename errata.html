@@ -3,37 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Errata &amp; Corrections — Jijnāsu</title>
-<meta name="description" content="Known corrections to published Jijnāsu editions, and how to report a new one.">
-<link rel="stylesheet" href="style.css">
+<title>Errata: Jijnāsu</title>
+<meta name="description" content="Corrections to published Jijnāsu editions, and how to report a new one.">
+<link rel="icon" href="assets/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
-<div class="page">
+<div class="grain" aria-hidden="true"></div>
 
-<header class="site">
-  <p class="brand">Jijnāsu</p>
-  <nav class="site">
-    <a href="index.html">About</a>
-    <a href="errata.html">Errata &amp; Corrections</a>
+<header class="top">
+  <a class="top-mark" href="index.html" aria-label="Jijnāsu, home"><img src="assets/mark.svg" alt=""></a>
+  <nav>
+    <a href="index.html#books">Books</a>
+    <a href="index.html#method">Method</a>
+    <a href="errata.html">Errata</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
 <main>
-  <h1>Errata &amp; Corrections</h1>
-  <p>
-    No corrections have been reported yet for any published edition. If
-    you've found one, please <a href="contact.html">get in touch</a> with
-    the book title and the page or section — confirmed corrections will be
-    listed here and folded into the next printing.
-  </p>
+<section class="note plain">
+  <p class="eyebrow">Corrections</p>
+  <h2>Errata<span class="red">.</span></h2>
+  <p>No corrections have been reported yet for any published edition.</p>
+  <p>If you find an error, write to us with the book title and the chapter or passage. Confirmed corrections are listed here and go into the next update of the ebook.</p>
+  <p class="links"><a href="mailto:contact@jijnasu.me">Report an error</a><a href="index.html#books">The books</a></p>
+</section>
 </main>
 
-<footer class="site">
-  <p>&copy; <span id="year"></span> Jijnāsu.</p>
+<footer class="foot">
+  <p>© <span id="year"></span> Jijnāsu</p>
+  <p class="foot-deva">जिज्ञासु</p>
+  <p><a href="mailto:contact@jijnasu.me">contact@jijnasu.me</a></p>
 </footer>
 
-</div>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

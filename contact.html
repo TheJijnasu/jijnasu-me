@@ -3,43 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact — Jijnāsu</title>
-<meta name="description" content="Contact Jijnāsu with feedback, corrections, or questions about a published edition.">
-<link rel="stylesheet" href="style.css">
+<title>Contact: Jijnāsu</title>
+<meta name="description" content="Write to Jijnāsu with corrections, feedback or questions about a published edition.">
+<link rel="icon" href="assets/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
-<div class="page">
+<div class="grain" aria-hidden="true"></div>
 
-<header class="site">
-  <p class="brand">Jijnāsu</p>
-  <nav class="site">
-    <a href="index.html">About</a>
-    <a href="errata.html">Errata &amp; Corrections</a>
+<header class="top">
+  <a class="top-mark" href="index.html" aria-label="Jijnāsu, home"><img src="assets/mark.svg" alt=""></a>
+  <nav>
+    <a href="index.html#books">Books</a>
+    <a href="index.html#method">Method</a>
+    <a href="errata.html">Errata</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
 <main>
-  <h1>Contact</h1>
-  <p>
-    Found an error in a published edition, have feedback on a translation,
-    or a complaint about a purchase? Write in — every message is read.
-  </p>
-  <div class="contact-box">
-    <a href="mailto:contact@jijnasu.me">contact@jijnasu.me</a>
-  </div>
-  <p>
-    If you're reporting a specific error, please include the book title,
-    edition (print/ebook), and the page or section where you found it —
-    it makes it possible to actually fix.
-  </p>
+<section class="note plain">
+  <p class="eyebrow">Write to us</p>
+  <h2>Contact<span class="red">.</span></h2>
+  <p>Found an error, have a thought on a translation, or a question about a book you bought? Every message is read.</p>
+  <p class="mail"><a href="mailto:contact@jijnasu.me">contact@jijnasu.me</a></p>
+  <p>If you are reporting an error, please name the book and the chapter or passage where you found it.</p>
+  <p class="links"><a href="errata.html">Errata</a><a href="index.html#books">The books</a></p>
+</section>
 </main>
 
-<footer class="site">
-  <p>&copy; <span id="year"></span> Jijnāsu.</p>
+<footer class="foot">
+  <p>© <span id="year"></span> Jijnāsu</p>
+  <p class="foot-deva">जिज्ञासु</p>
+  <p><a href="mailto:contact@jijnasu.me">contact@jijnasu.me</a></p>
 </footer>
 
-</div>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
