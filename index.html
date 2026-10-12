@@ -3,54 +3,154 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jijnāsu — English editions of classical Sanskrit texts</title>
-<meta name="description" content="Who Jijnāsu is, and why these editions exist.">
-<link rel="stylesheet" href="style.css">
+<title>Jijnāsu: classical Indian texts in plain English</title>
+<meta name="description" content="Jijnāsu publishes complete, plain-English translations of classical Indian texts: the Ravana Samhita and the Sat Chakra Nirupana.">
+<link rel="icon" href="assets/mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
-<div class="page">
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i></i></div>
 
-<header class="site">
-  <p class="brand">Jijnāsu</p>
-  <p class="tagline">जिज्ञासु — "one who seeks to know"</p>
-  <nav class="site">
-    <a href="index.html">About</a>
-    <a href="errata.html">Errata &amp; Corrections</a>
+<header class="top">
+  <a class="top-mark" href="#" aria-label="Jijnāsu, home"><img src="assets/mark.svg" alt=""></a>
+  <nav>
+    <a href="#books">Books</a>
+    <a href="#method">Method</a>
+    <a href="errata.html">Errata</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
 <main>
-  <h1>Who is Jijnāsu?</h1>
-  <p>
-    Jijnāsu publishes English editions of Sanskrit astrological, tantric,
-    and devotional texts that most readers otherwise can't get to — locked
-    behind a scan of a century-old printing, an academic translation too
-    dense to actually read, or simply never rendered into English at all.
-    The goal of each edition is a plain one: the real text, in real English,
-    without losing the tradition's own vocabulary or its depth.
-  </p>
-  <p>
-    Every translation is checked word by word against traditional
-    dictionaries and grammar, not taken on a first pass. Where the source
-    itself is damaged or genuinely ambiguous, the edition says so plainly
-    rather than papering over it — so what's on the page is either the
-    source's own meaning or a clearly marked editorial judgment, never the
-    two blurred together.
-  </p>
 
-  <h2>Editions</h2>
-  <p>
-    Nothing is published yet. The first edition will be listed here once
-    it actually is.
-  </p>
+<section class="hero">
+  <p class="hero-deva" aria-hidden="true">जिज्ञासु</p>
+  <div class="hero-in">
+    <p class="eyebrow reveal" style="--d:.1s">A small press · est. 2026</p>
+    <h1 class="plate" data-text="Jijnāsu"><span>Jijnāsu</span></h1>
+    <p class="hero-line reveal" style="--d:.9s">Old books, <em>in plain English.</em></p>
+    <p class="hero-sub reveal" style="--d:1.1s">Complete translations of classical Indian texts on tantra, yoga, medicine and astrology. Nothing softened, nothing left out.</p>
+    <a class="cta reveal" style="--d:1.3s" href="#books"><span>See the books</span><i aria-hidden="true">↓</i></a>
+  </div>
+  <img class="hero-mark" src="assets/mark.svg" alt="" aria-hidden="true">
+  <div class="rule-x" aria-hidden="true"></div>
+</section>
+
+<section class="say">
+  <p class="say-text" data-words>The name is Sanskrit for one who wants to know. These books were printed once, in a language most readers cannot follow, and were on their way to being forgotten. We put them into English a curious person can read, in the order they were written, with their mantras in their own words.</p>
+</section>
+
+<section class="shelf" id="books">
+  <div class="shelf-pin">
+    <div class="shelf-head">
+      <p class="eyebrow">The catalogue</p>
+      <h2>Six books<span class="red">.</span></h2>
+      <p class="shelf-count"><b id="idx">01</b><span> / 06</span></p>
+    </div>
+    <div class="track" id="track">
+
+      <article class="book">
+        <a class="cover" href="#" data-tilt><img src="assets/ravan-samhita-1.jpg" alt="Cover of Ravana Samhita, Volume One" loading="lazy"></a>
+        <div class="meta">
+          <p class="num">01</p>
+          <h3>Ravana Samhita <i>Volume One</i></h3>
+          <p class="sub">The Life Story of Ravana</p>
+          <p class="desc">After the war, Rama asks how strong his enemy really was. The sage Agastya answers with Ravana's whole life: his lineage, his boons, his conquests and the curses that followed him.</p>
+          <p class="status live">On Kindle</p>
+        </div>
+      </article>
+
+      <article class="book">
+        <a class="cover" href="#" data-tilt><img src="assets/ravan-samhita-2.jpg" alt="Cover of Ravana Samhita, Volume Two" loading="lazy"></a>
+        <div class="meta">
+          <p class="num">02</p>
+          <h3>Ravana Samhita <i>Volume Two</i></h3>
+          <p class="sub">Tantra-Mantra Practice</p>
+          <p class="desc">The Uddisha Tantra and more than three hundred rites and charms: the Six Acts, Yakshini rites, healing spells, exorcisms and the mantras of the nine planets.</p>
+          <p class="status live">On Kindle</p>
+        </div>
+      </article>
+
+      <article class="book">
+        <a class="cover" href="#" data-tilt><img src="assets/ravan-samhita-3a.jpg" alt="Cover of Ravana Samhita, Volume Three, Part One" loading="lazy"></a>
+        <div class="meta">
+          <p class="num">03</p>
+          <h3>Ravana Samhita <i>Volume Three, Part One</i></h3>
+          <p class="sub">Internal Medicine</p>
+          <p class="desc">A working Ayurvedic formulary. It names each disease, gives its treatment, and lists the medicines one by one, from the fevers to the disorders of the heart.</p>
+          <p class="status">Coming soon</p>
+        </div>
+      </article>
+
+      <article class="book">
+        <a class="cover" href="#" data-tilt><img src="assets/ravan-samhita-3b.jpg" alt="Cover of Ravana Samhita, Volume Three, Part Two" loading="lazy"></a>
+        <div class="meta">
+          <p class="num">04</p>
+          <h3>Ravana Samhita <i>Volume Three, Part Two</i></h3>
+          <p class="sub">Wounds, Skin, Senses, Women and Children</p>
+          <p class="desc">The rest of the physician's art: wounds and fractures, the long run of skin diseases, the eye and ear, childbirth, poisons, and rejuvenation.</p>
+          <p class="status">Coming soon</p>
+        </div>
+      </article>
+
+      <article class="book">
+        <a class="cover" href="#" data-tilt><img src="assets/ravan-samhita-4.jpg" alt="Cover of Ravana Samhita, Volume Four" loading="lazy"></a>
+        <div class="meta">
+          <p class="num">05</p>
+          <h3>Ravana Samhita <i>Volume Four</i></h3>
+          <p class="sub">The Science of Time</p>
+          <p class="desc">A complete reference of Indian astrology: signs, houses and planets, every conjunction, the yogas of kings, and the dashas that time a life.</p>
+          <p class="status">Coming soon</p>
+        </div>
+      </article>
+
+      <article class="book">
+        <a class="cover" href="#" data-tilt><img src="assets/satcakra-nirupanam.jpg" alt="Cover of Sat Chakra Nirupana" loading="lazy"></a>
+        <div class="meta">
+          <p class="num">06</p>
+          <h3>Sat Chakra Nirupana</h3>
+          <p class="sub">The Six Chakras and Kundalini Yoga</p>
+          <p class="desc">The classical source of the six-chakra system. All 55 verses with the traditional commentary, and ten new illustrations of the channels and lotuses.</p>
+          <p class="status">Coming soon</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="method" id="method">
+  <p class="eyebrow">How we work</p>
+  <div class="cols">
+    <div class="col io"><span class="big">Complete</span><p>Every passage of the original, in its own order. If the source says something hard, the English says it too.</p></div>
+    <div class="col io"><span class="big">Plain</span><p>Sentences a reader can follow without a teacher beside them. The tradition's own words are kept and explained once.</p></div>
+    <div class="col io"><span class="big">Checked</span><p>Each passage read against the source page. Each mantra compared letter by letter. Each name looked up.</p></div>
+  </div>
+</section>
+
+<section class="band" aria-hidden="true">
+  <div class="marquee"><span>तन्त्र · योग · आयुर्वेद · ज्योतिष · रावणसंहिता · षट्चक्रनिरूपण · </span><span>तन्त्र · योग · आयुर्वेद · ज्योतिष · रावणसंहिता · षट्चक्रनिरूपण · </span></div>
+</section>
+
+<section class="note io">
+  <img src="assets/mark.svg" alt="">
+  <h2>For study, not for practice.</h2>
+  <p>These are translations for readers of Indian religion and history, students of yoga and Ayurveda, and anyone curious about what the texts actually say. They are no substitute for a qualified teacher or physician.</p>
+  <p class="links"><a href="contact.html">Write to us</a><a href="errata.html">Report an error</a></p>
+</section>
+
 </main>
 
-<footer class="site">
-  <p>&copy; <span id="year"></span> Jijnāsu. Source texts are in the public domain; these translations and editions are offered in that same spirit.</p>
+<footer class="foot">
+  <p>© <span id="year"></span> Jijnāsu</p>
+  <p class="foot-deva">जिज्ञासु</p>
+  <p><a href="mailto:contact@jijnasu.me">contact@jijnasu.me</a></p>
 </footer>
 
-</div>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="site.js"></script>
 </body>
 </html>
